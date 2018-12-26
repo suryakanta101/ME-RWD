@@ -26,9 +26,6 @@ footer .row a.active {
   text-decoration: none;
   text-transform: none;
 }
-footer .row a.active span {
-  color: rgba(60, 60, 60, 0.7);
-}
 footer .row a.active .tab-button-icon {
   background-position: 50% 100%;
   background-repeat: no-repeat;
@@ -47,6 +44,9 @@ footer .row a.active .tab-button-icon.tabaccount {
 }
 footer .row a.active .tab-button-icon.tabbooknow {
   background-image: url(../../img/action/icon-booknow-active-tabBar.svg);
+}
+footer .row a:not(.active) span {
+  color: rgba(60, 60, 60, 0.7);
 }
 footer .row a:not(.active) .tab-button-icon {
   background-position: 50% 100%;
