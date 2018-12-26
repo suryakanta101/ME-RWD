@@ -1,0 +1,16 @@
+header {
+  height: 44px;
+  top: 0;
+  position: absolute;
+  z-index: 10;
+  display: block;
+  width: 100%;
+  background-color: #224099;
+}
+header nav.toolbar {
+  padding: 0.6em;
+  text-align: center;
+}
+header nav.toolbar img {
+  height: 28px;
+}
