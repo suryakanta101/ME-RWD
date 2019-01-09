@@ -1,0 +1,111 @@
+.btn-p,
+.btn-p:hover,
+.btn-p:focus {
+  background: #ffd300;
+  color: #344b90 !important;
+  border-radius: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+  box-shadow: none;
+  line-height: 20px;
+  outline: none;
+  border: none;
+  padding: 13px 65px;
+}
+.app-root {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: block;
+  -webkit-overflow-scrolling: touch;
+  will-change: scroll-position;
+  contain: size style layout;
+  margin-top: 55px;
+}
+.bowling-landing-img-holder {
+  display: block;
+}
+.bowling-landing-img-holder img {
+  width: 100%;
+  height: 100%;
+}
+.bowling-landing-label {
+  margin: 25px 4px 20px 12px;
+}
+.bowling-landing-label h3,
+.bowling-landing-label p {
+  margin: 0;
+}
+.bowling-landing-label h3 {
+  margin-bottom: 2px;
+  color: #333;
+  font-size: 16px;
+}
+.bowling-landing-label p {
+  font-size: 13px;
+  color: #7e7e7e;
+}
+.search-field {
+  padding: 0 12px;
+  margin-bottom: 40px;
+}
+.search-field input {
+  color: #333;
+  padding-left: 0px;
+  border: none;
+  border-bottom: 1px solid #a7a9b0;
+  border-radius: 0;
+  width: 100%;
+  line-height: 27px;
+}
+.search-field label {
+  font-size: 13px;
+}
+.app-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.searchbar-search-icon {
+  left: auto;
+  right: 10px;
+  background: url(../../img/action/Icon-form-location.svg) no-repeat 50% 100%;
+  height: 22px;
+  width: 20px;
+  background-size: 20px;
+  top: 4px;
+  position: absolute;
+}
+.common-content-button {
+  display: block;
+  width: 100%;
+  padding: 0 12px;
+}
+.common-content-button .btn-p {
+  width: 100%;
+}
+.floatlabel {
+  position: relative;
+}
+.floatlabel label {
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 0px;
+  transition: all 200ms;
+  opacity: 0.5;
+}
+.floatlabel input:focus + label,
+.floatlabel input:valid + label {
+  font-size: 75%;
+  transform: translate3d(0, -80%, 0);
+  opacity: 0.5;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .app-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
